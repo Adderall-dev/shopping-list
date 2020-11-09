@@ -1,0 +1,88 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ShoppingList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #4A4E69;
+    margin: 10px;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    padding: 15px 20px;
+}
+.btn:hover{
+    background-color: #22223B;
+}
+
+.addItem {
+    box-shadow: 0px 15px 30px -13px #000000;
+    border-radius: 10px;
+    margin-bottom: 30px;;
+}
+
+h1 {
+    color: #9A8C98;
+    font-size: 3rem
+}
+
+input {
+    background-color: #9A8C98;
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    
+}
+::placeholder{
+    color: #F2E9E4;
+}
+input:focus{
+    background-color: #C9ADA7;
+}
+
+.addBtn{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #4A4E69;
+    color: #F2E9E4;  
+}
+
+.addBtn:hover{
+    background-color: #22223B;
+}
+
+.delBtn{
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    background-color: #4A4E69;
+    color: #F2E9E4;
+    box-shadow: 0px 15px 30px -13px #000000;
+}
+
+.delBtn:hover{
+    background-color: #22223B;
+}
+
