@@ -11,7 +11,6 @@ const itemsReducer = (state = initialState, action) => {
                 id: uuid(),
                 name: payload.name
             }];
-            console.log(state)
         case 'DELETE_ITEM':
             const copyState = [...state];
             //find index of obj to remove
