@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {v1 as uuid} from 'uuid'
 import {useDispatch} from 'react-redux'
 
 function AddItem() {
@@ -14,7 +15,8 @@ function AddItem() {
             dispatch({
             type: 'ADD_ITEM',
             payload: {
-                name: inputVal
+                name: inputVal,
+                id: uuid()
             }
         })
         setInputVal('')
